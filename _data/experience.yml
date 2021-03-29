@@ -1,9 +1,10 @@
 # Jobs
 # VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: dti digital - Fiat Chrysler Automobiles Group
+  position: Software Architect
+  duration: Feb, 2019 &mdash; Present
+  technologies: AWS Cloud, GCP, Linux Shell Script, GitLab, Terraform, Java, React, C#, Swift, Kotlin, MySQL, PostgreSQL 
+  summary: Software Architect of several applications in different technologies, from Web Based to Native Mobile, including integration with Mainframe systems using an ESB. Works on initial definition of the solutions with the design and guidelines for the developers and on automation of the infrastructure provisioning using Terraform and Shell Script. 
 
 # Director of Digital Stratgy
 - company: United Nations Human Rights Council

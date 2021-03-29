@@ -11,6 +11,8 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Matheus Araujo"
+resume_author:                  "Matheus Araujo"
+resume_update_date:             "Apr, 2021"
 resume_title:                   "Software Developer"
 
 # used for the contact button in _layouts/resume.html
