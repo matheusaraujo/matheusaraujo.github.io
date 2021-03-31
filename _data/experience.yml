@@ -3,11 +3,11 @@
   duration: Aug, 2014 &mdash; Present
   summary: Applying agile methodologies, system thinking and DevOps to promote the digital transformation into customers in many industries, such as the auto industry, retail, car rental, mining, concreting, adops and others. 
   allocations:
-    - company: Brius
-      position: DevOps and Software Architect
+    - company: Brius Media Company
+      position: Engineering Head
       duration: Nov, 2020 &mdash; Present
-      summary: blah!
-      technologies: GCP Cloud
+      summary: Working as Software Architect inside a Cross Squad to define and structure Agile At Scale at Company. The product squads works on a white label and cloud native application. As engineering leader, works on general definitions, as technologic stack, cloud architecture, programming good practices and development flow, from infrastructure automation to production delivering. 
+      technologies: GCP Cloud, Linux Shell Script, GitLab, Terraform, NodeJS, Vue, MySQL 
   
     - company: Fiat Chrysler Automobiles Group 
       position: Software Architect
@@ -40,9 +40,6 @@
       summary: Initial development of the Windows Service write in C#, using TopShelf and SignalR, and assisted operation. During the assisted operation, refactoring and evolution of the whole system, including Web Service, Frontend in AngularJS, Windows Form Applications and Windows Service. 
       projects: Antifraud - a security system to avoid cars being stolen. The system consists of a Windows Service running on every computer used to attend the customers and a Web Service as a Notification Centra. In their first month, the system avoided three car stoles. 
       technologies: .Net, C#, AngularJS, SignalR, MS SQL Server, Sybase
- 
-
-
 
 - company: Codificar Sistemas Web
   position: Programmer
