@@ -58,12 +58,26 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          <h3 class="resume-item-title" itemprop="name"><span>{{ job.company }}</span> <span>{{ job.duration }}</span></h3>
+          <h4 class="resume-item-details" itemprop="description">{{ job.position }}</h4>
+          {% if job.projects %}
+            <p class="resume-item-copy"> <strong>Projects:</strong> {{ job.projects }}</p>
+          {% endif %}
+          <p class="resume-item-copy"> <strong>Main Activities:</strong> {{ job.summary }}</p>
+          {% for allocation in job.allocations %}
+            <div class="allocation-item">
+              <h4 class="allocation-item-title"> <span>{{ allocation.company }} </span> <span>{{ allocation.duration }}</span></h4>
+              <p class="allocation-item-copy"> <strong>{{ allocation.position }}</strong></p>
+              {% if allocation.projects %}
+              <p class="allocation-item-copy"> <strong>Projects:</strong> {{ allocation.projects }}</p>
+              {% endif %}
+              <p class="allocation-item-copy"> <strong>Main Activities:</strong> {{ allocation.summary }}</p>
+              <p class="allocation-item-copy"> <strong>Technologies:</strong> {{ allocation.technologies }}</p>
+            </div>
+          {% endfor %}
           {% if job.technologies %}
           <p class="resume-item-copy"> <strong>Technologies:</strong> {{ job.technologies }}</p>
           {% endif %}
-          <p class="resume-item-copy"> <strong>Main activities:</strong> {{ job.summary }}</p>          
         </div><!-- end of resume-item -->
         {% endfor %}
 

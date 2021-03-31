@@ -1,20 +1,58 @@
 # Jobs
-# VP of Global Communications
-- company: dti digital - Fiat Chrysler Automobiles Group
-  position: Software Architect
-  duration: Feb, 2019 &mdash; Present
-  technologies: AWS Cloud, GCP, Linux Shell Script, GitLab, Terraform, Java, React, C#, Swift, Kotlin, MySQL, PostgreSQL 
-  summary: Software Architect of several applications in different technologies, from Web Based to Native Mobile, including integration with Mainframe systems using an ESB. Works on initial definition of the solutions with the design and guidelines for the developers and on automation of the infrastructure provisioning using Terraform and Shell Script. 
+- company: dti digital  
+  duration: Aug, 2014 &mdash; Present
+  summary: Applying agile methodologies, system thinking and DevOps to promote the digital transformation into customers in many industries, such as the auto industry, retail, car rental, mining, concreting, adops and others. 
+  allocations:
+    - company: Brius
+      position: DevOps and Software Architect
+      duration: Nov, 2020 &mdash; Present
+      summary: blah!
+      technologies: GCP Cloud
+  
+    - company: Fiat Chrysler Automobiles Group 
+      position: Software Architect
+      duration: Feb, 2019 &mdash; Dec 2020
+      summary: Software Architect of several applications in different technologies, from Web Based to Native Mobile, including integration with Mainframe systems using an ESB. Works on initial definition of the solutions with the design and guidelines for the developers and on automation of the infrastructure provisioning using Terraform and Shell Script. 
+      technologies: AWS Cloud, GCP, Linux Shell Script, GitLab, Terraform, Java, React, C#, Swift, Kotlin, MySQL, PostgreSQL 
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+    - company: Araujo Drugstore
+      position: Software Architect
+      duration: Jul, 2018 &mdash; Jan 2019
+      summary: Software Architect of applications used by the pharmacy attendants in more than one hundred stores, communicating with product suppliers, sales applications and government services involved in medicine sale process. 
+      technologies: .Net, C#, Angular, SQL Server
+
+    - company: Supermix Concreting 
+      position: Developer Leader
+      duration: Jan, 2017 &mdash; Jun 2018
+      summary: Definition of Solutions Architecture, from frontend to multiple services structure and DevOps practices, and leadership of three different teams. Phased migration of the legacy application from a Desktop Application to a Web Application using design thinking, first On-Promise and after it to Cloud, keeping integration with the legacy system during the migration.
+      projects: Commercial management, concreting scheduler, concreting technologies
+      technologies: Microsoft VSTS, Azure Cloud, .Net, C#, JavaScript Knock-out, SQL Server, Node.js
+
+    - company: Vale SA
+      position: Developer
+      duration: Aug, 2016 &mdash; Dec 2016
+      summary: Optimization of startup time of a Java Web Application, decreasing from ten to four minutes; and then creation of a new frontend architecture for this application, using AngularJS integrated with Spring Boot API exposing the backend, resulting in a better user experience then the JSF existing solution. 
+      technologies: Java, JSF, Spring Boot, AngularJS
+    
+    - company: Localiza Rent a Car
+      position: Developer
+      duration: Aug, 2014 &mdash; Jul 2016
+      summary: Initial development of the Windows Service write in C#, using TopShelf and SignalR, and assisted operation. During the assisted operation, refactoring and evolution of the whole system, including Web Service, Frontend in AngularJS, Windows Form Applications and Windows Service. 
+      projects: Antifraud - a security system to avoid cars being stolen. The system consists of a Windows Service running on every computer used to attend the customers and a Web Service as a Notification Centra. In their first month, the system avoided three car stoles. 
+      technologies: .Net, C#, AngularJS, SignalR, MS SQL Server, Sybase
+ 
 
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+
+- company: Codificar Sistemas Web
+  position: Programmer
+  duration:  Jan, 2013 &mdash; Jul, 2014
+  summary: Migration of the process core code write in a PHP legacy code to a .Net C# code; then a framework for the WebForm platform and the dashboard of the flow.
+  projects: SADE, portuguese initials for Performance Measurement System, is a web based software used for public concession monitoring by Minas Gerais government. Used by public agents, consultancies and companies representatives, the software controls the measurement process, alerts users at the right time and shows a dashboard of the flow.  
+  technologies: PHP, .Net C#, SQL Server
+
+- company: DALTEC Consultoria
+  position: Technical Developer
+  duration: Mar, 2008  &mdash; Mar, 2010
+  summary: Development of customized applications for Industrial Automation for companies like VALE S.A. and Petrobras, integrating industrial plants with computational systems for data acquisition, using mainly OPC.
+  technologies: VB.NET, VB6, MS SQL Server, Microsoft Office Access, Excel, OPC

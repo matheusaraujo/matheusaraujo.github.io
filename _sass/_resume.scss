@@ -171,7 +171,44 @@
     }
   }
 
+  .resume-item-title {
+    height: 24px;
+  }
+
+  .resume-item-title span:first-child {
+    float: left;
+  }
+
+  .resume-item-title span:last-child {
+    float: right;
+    color: #9c9c9c;
+  }
+
   .resume-item-copy { margin: .75rem 0 0; }
+
+  .allocation-item {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    .allocation-item-title {
+      height: 8px;
+    }
+
+    .allocation-item-title span:first-child {
+      float: left;
+      color: #9c9c9c;
+    }
+
+    .allocation-item-title span:last-child {
+      float: right;
+      color: #9c9c9c;
+    }
+
+    .allocation-item-copy {
+      display: block;
+    }
+  }
 }
 
 // footer styles
